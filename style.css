@@ -3,11 +3,14 @@ body {
 }
 
 .calculator {
-  display: inline-block;
-  padding: 10px;
-  background-color: #f2f2f2;
+  width: 320px; /* set the calculator width to its original width */
+  margin: 0 auto; /* center the calculator horizontally */
+  padding: 20px;
+  background-color: #e6e6e6; /* set the calculator background color back to its original color */
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a box shadow for a 3D effect */
 }
+
 
 
 .display {
