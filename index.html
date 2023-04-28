@@ -11,22 +11,24 @@
         <p id="output"></p>
       </div>
       <div class="buttons">
-        <button onclick="addChar('%')">%</button>
-        <button onclick="addChar('/')">÷</button>
-        <button onclick="addChar('*')">x</button>
-        <button onclick="addChar('-')">-</button>
-        <button onclick="addChar('7')">7</button>
-        <button onclick="addChar('8')">8</button>
-        <button onclick="addChar('9')">9</button>
-        <button onclick="addChar('+')">+</button>
-        <button onclick="addChar('4')">4</button>
-        <button onclick="addChar('5')">5</button>
-        <button onclick="addChar('6')">6</button>
-        <button onclick="clearOutput()">C</button>
-        <button onclick="addChar('1')">1</button>
-        <button onclick="addChar('2')">2</button>
-        <button onclick="addChar('3')">3</button>
-        <button class="button cut-button" onclick="cutInput()">Cut</button>
+    <button class="button number" onclick="addChar('%')">%</button>
+    <button class="button cut-button" onclick="cutInput()">Cut</button>
+    <button class="button operator" onclick="addChar('+')">+</button>
+    <button class="button number" onclick="addChar('7')">7</button>
+    <button class="button number" onclick="addChar('8')">8</button>
+    <button class="button number" onclick="addChar('9')">9</button>
+    <button class="button operator" onclick="addChar('-')">-</button>
+    <button class="button number" onclick="addChar('4')">4</button>
+    <button class="button number" onclick="addChar('5')">5</button>
+    <button class="button number" onclick="addChar('6')">6</button>
+    <button class="button operator" onclick="addChar('*')">*</button>
+    <button class="button number" onclick="addChar('1')">1</button>
+    <button class="button number" onclick="addChar('2')">2</button>
+    <button class="button number" onclick="addChar('0')">0</button>
+    <button class="button operator" onclick="addChar('/')">/</button>
+    <button class="button decimal" onclick="addChar('.')">.</button>
+    <button class="button clear" onclick="clearOutput()">Clear</button>
+    <button class="button equals" onclick="equals()">=</button>
         
         <button onclick="addChar('.')">.</button>
         <button onclick="addChar('0')">0</button>
