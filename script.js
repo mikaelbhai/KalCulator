@@ -13,6 +13,6 @@ function equals() {
     output.textContent = eval(output.textContent);
   } catch (error) {
     output.textContent = "Error";
-    setTimeout(clearOutput, 2000); // Clear output after 2 seconds
+    setTimeout(clearOutput, 1000); // Clear output after 2 seconds
   }
 }
