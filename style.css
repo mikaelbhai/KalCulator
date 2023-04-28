@@ -14,13 +14,16 @@ body {
   height: 60px;
   padding: 10px;
   text-align: right;
+  background-color: black;
 }
 
 .display p {
   margin: 0;
   font-size: 36px;
-  color: #ffffff;
+  color: white;
+  font-family: Arial, sans-serif;
 }
+
 
 .buttons {
   display: grid;
