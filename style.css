@@ -3,23 +3,29 @@ body {
 }
 
 .calculator {
-  width: 300px;
-  margin: 50px auto;
-  background-color: #333333;
+  width: 320px; /* set the calculator width to its original width */
+  margin: 0 auto; /* center the calculator horizontally */
+  padding: 20px;
+  background-color: #e6e6e6; /* set the calculator background color back to its original color */
   border-radius: 10px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a box shadow for a 3D effect */
 }
 
+
 .display {
-  height: 60px;
-  padding: 10px;
+  height: 50px;
+  padding: 5px;
   text-align: right;
+  background-color: black;
+  border-radius: 10px;
 }
+
 
 .display p {
   margin: 0;
   font-size: 36px;
-  color: #ffffff;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
 .buttons {
